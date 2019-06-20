@@ -1,9 +1,4 @@
-html {
-    height: 100%;
-}
-
 body {
-    height: 100%;
     background-image: url(../images/dark-honeycomb.png);
 }
 
@@ -21,7 +16,7 @@ header {
 
 .container {
     width: 960px;
-    height: 555px;    
+    height: 100%;
     margin: 0 auto;
     margin-top: 7%;
 }
@@ -241,7 +236,7 @@ footer {
     .content {
         width: 100%;
         margin-left: 0;
-        height: 500px;
+        height: 600px;
     }
 }
 
@@ -273,7 +268,7 @@ footer {
         max-width: 960px;
         width: 79vw;
         margin-left: 10px;
-        height: 500px;
+        height: 600px;
     }
 }
 
@@ -304,12 +299,12 @@ footer {
         max-width: 960px;
         width: 79vw;
         margin-left: 0;
-        height: 500px;
+        height: 600px;
     }
 
     #img1, #img2, #img3, #img4, #img5, #img6 {
         width: 27%;        
-        margin-left: 1.5%;
+        margin-left: 4.5%;
     }
 
     .center-text {
