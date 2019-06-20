@@ -1,0 +1,318 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: url(../images/dark-honeycomb.png);
+}
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border: 1px solid;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    
+}
+
+.container {
+    width: 960px;
+    height: 555px;    
+    margin: 0 auto;
+    margin-top: 7%;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.content {
+    width: 764px;
+    background-color: white;
+    height: 450px;
+    margin-left: 100px;
+    border: 1px solid;
+    
+}
+
+#name-box {
+    position: absolute; 
+    bottom: 0;
+    left: 25%; 
+    height: 100%; 
+    background-color: #4aaaa5; 
+    width: 14vw; 
+    text-align:center;
+}
+
+#my-name {
+    font-size: 32px; 
+    color: white; 
+    position: relative; 
+    top: -32%; 
+    left: 0; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#nav-menu {
+    position: absolute; 
+    bottom: 0;
+    left: 59%; 
+    height: 100%; 
+    width: 25vw;
+}
+
+#content-div {
+    line-height: 20px; 
+    margin-left: 20px; 
+    width: 88%
+}
+
+#content-p {
+    color: #777777; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-left: 20px;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#id {
+    line-height: 30px; 
+}
+
+#line {
+    width:95%; 
+    color: teal;
+}
+
+label {
+    margin: 5px 5px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+input {
+    width: 100%; 
+    padding: 8px;
+    margin: 5px 5px;  
+    margin-bottom: 12px;
+}
+
+textarea {
+    width: 102%;
+    height: 120px;
+    margin: 5px 5px;  
+}
+
+#ok-btn {
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 15%;
+}
+
+img {
+    float: left;
+    padding: 10px;
+    width: 100px; 
+    margin-right: 10px;
+}
+
+.column-left {
+    float: left;
+    width: 24%;
+    height: 100%;
+    
+}
+.column-center {
+    float: left;
+    width: 52%;    
+    height: 100%;
+    
+}
+.column-right {
+    float: left;
+    width: 24%;
+    height: 100%;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  li a {
+    display: block;
+    color: #4aaaa5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+      
+  }
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    line-height: 40px;
+}
+
+/* On screens that are 640px or less */
+@media all and (max-width: 640px)  {
+
+    #name-box {
+        top: 0;
+        width: 100%;
+        left: 0;
+    }
+    #nav-menu {
+        top: 70px;
+        width: 100%;
+        left: 0;
+        bottom: -70px;
+        background-color: white;
+    }
+    #my-name {
+        top: -20%;        
+    }
+
+    .container {
+        margin-top: 40%;
+        width: 100%;
+        left: 0;
+    }
+
+    .content {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+
+/* On screens that are 768px or less */
+@media all and (max-width: 768px) and (min-width: 641px)  {
+
+    #name-box {
+        width: 35vw;
+        left: 2%;
+    }
+    #nav-menu {
+        width: 100%;
+        left: 382px;
+        bottom: 0px
+        background-color: white;
+    }
+    #my-name {
+        top: -20%;        
+    }
+
+    .container {
+        margin-top: 20%;
+        width: 100%;
+        left: 0;
+    }
+
+    .content {
+        width: 100%;
+        margin-left: 0;
+        height: 500px;
+    }
+}
+
+/* On screens that are 980px or less */
+@media all and (max-width: 980px) and (min-width: 769px)  {
+    
+
+    #name-box {
+        width: 35vw;
+        left: 2%;
+    }
+    #nav-menu {
+        width: 100%;
+        left: 382px;
+        bottom: 0px
+        background-color: white;
+    }
+    #my-name {
+        top: -20%;        
+    }
+
+    .container {
+        margin: 131px auto
+        margin-top: 10%
+    }
+
+    .content {
+        margin-top: 12%;
+        max-width: 960px;
+        width: 79vw;
+        margin-left: 10px;
+        height: 500px;
+    }
+}
+
+/* On screens that are larger 980px */
+@media all and (min-width: 981px) {
+
+    #name-box {
+        width: 20vw;
+        left: 10%;
+    }
+    #nav-menu {
+        width: 100%;
+        left: 60%;
+        bottom: 0px
+        background-color: white;
+    }
+    #my-name {
+        top: -20%;        
+    }
+
+    .container {
+        max-width: 960px;
+        margin-left: 10%;        
+    }
+
+    .content {
+        margin-top: 12%;
+        max-width: 960px;
+        width: 79vw;
+        margin-left: 0;
+        height: 500px;
+    }
+
+    #img1, #img2, #img3, #img4, #img5, #img6 {
+        width: 27%;        
+        margin-left: 1.5%;
+    }
+
+    .center-text {
+        width: 100%;
+    }   
+}
