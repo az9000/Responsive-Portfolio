@@ -201,14 +201,22 @@ footer {
     line-height: 40px;
 }
 
+.active {
+    color: #666666;
+    font-weight: bold;
+}
+
 /* On screens that are 640px or less */
 @media all and (max-width: 640px)  {
 
+
     #name-box {
+        top: 0;
         width: 100%;
         left: 0;
     }
     #nav-menu {
+        top: 70px;
         width: 100%;
         left: 0;
         bottom: -70px;
@@ -219,7 +227,7 @@ footer {
     }
 
     .container {
-        margin-top: 40%;
+        margin-top: 35%;
         width: 100%;
         left: 0;
     }
@@ -228,19 +236,7 @@ footer {
         width: 100%;
         margin-left: 0;
     }
-
-    
-
-    #img1, #img2, #img3, #img4, #img5, #img6 {
-        width: 31%;        
-        margin-left: 1.5%;
-    }
-
-    .center-text {
-        width: 100%;
-    }   
 }
-
 
 
 /* On screens that are 768px or less */
@@ -261,7 +257,7 @@ footer {
     }
 
     .container {
-        margin-top: 20%;
+        margin-top: 25%;
         width: 100%;
         left: 0;
     }
@@ -271,19 +267,11 @@ footer {
         margin-left: 0;
         height: 600px;
     }
-
-    #img1, #img2, #img3, #img4, #img5, #img6 {
-        width: 31%;        
-        margin-left: 1.5%;
-    }
-
-    .center-text {
-        width: 100%;
-    }   
 }
 
 /* On screens that are 980px or less */
 @media all and (max-width: 980px) and (min-width: 769px)  {
+
 
     #name-box {
         width: 35vw;
@@ -307,27 +295,19 @@ footer {
     .content {
         margin-top: 12%;
         max-width: 960px;
-        width: 79vw;
+        width: 95vw;
         margin-left: 10px;
         height: 600px;
     }
-
-    #img1, #img2, #img3, #img4, #img5, #img6 {
-        width: 27%;        
-        margin-left: 1.5%;
-    }
-
-    .center-text {
-        width: 100%;
-    }   
 }
 
 /* On screens that are larger 980px */
 @media all and (min-width: 981px) {
 
+
     #name-box {
         width: 20vw;
-        left: 10%;
+        left: 23%;
     }
     #nav-menu {
         width: 100%;
@@ -341,13 +321,13 @@ footer {
 
     .container {
         max-width: 960px;
-        margin-left: 10%;        
+        margin-left: 23%;margin-top: 0;        
     }
 
     .content {
         margin-top: 12%;
         max-width: 960px;
-        width: 79vw;
+        width: 60vw;
         margin-left: 0;
         height: 600px;
     }

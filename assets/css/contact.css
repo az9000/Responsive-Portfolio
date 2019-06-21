@@ -178,8 +178,14 @@ footer {
     line-height: 40px;
 }
 
+.active {
+    color: #666666;
+    font-weight: bold;
+}
+
 /* On screens that are 640px or less */
 @media all and (max-width: 640px)  {
+
 
     #name-box {
         top: 0;
@@ -198,7 +204,7 @@ footer {
     }
 
     .container {
-        margin-top: 40%;
+        margin-top: 35%;
         width: 100%;
         left: 0;
     }
@@ -228,7 +234,7 @@ footer {
     }
 
     .container {
-        margin-top: 20%;
+        margin-top: 25%;
         width: 100%;
         left: 0;
     }
@@ -242,7 +248,6 @@ footer {
 
 /* On screens that are 980px or less */
 @media all and (max-width: 980px) and (min-width: 769px)  {
-    
 
     #name-box {
         width: 35vw;
@@ -266,7 +271,7 @@ footer {
     .content {
         margin-top: 12%;
         max-width: 960px;
-        width: 79vw;
+        width: 95vw;
         margin-left: 10px;
         height: 600px;
     }
@@ -277,7 +282,7 @@ footer {
 
     #name-box {
         width: 20vw;
-        left: 10%;
+        left: 23%;
     }
     #nav-menu {
         width: 100%;
@@ -291,13 +296,13 @@ footer {
 
     .container {
         max-width: 960px;
-        margin-left: 10%;        
+        margin-left: 23%;margin-top: 0;        
     }
 
     .content {
         margin-top: 12%;
         max-width: 960px;
-        width: 79vw;
+        width: 60vw;
         margin-left: 0;
         height: 600px;
     }
