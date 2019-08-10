@@ -1,0 +1,48 @@
+.sk-cube-grid .sk-cube,
+.kreativecodes-custom-navbar .navbar-toggle .icon-bar,
+.kc-animated-underline:hover:after,
+.bar {
+	background-color: #ff8c00;
+	background: #ff8c00;
+}
+
+.education-title {
+	color: #ff8c00;
+	font-weight: 700;
+}
+
+.special,
+.kreativecodes-custom-navbar .navbar-nav>li>a:hover,
+.kreativecodes-custom-navbar .navbar-nav>li>a:focus,
+.nav li a.active,
+.kreativecodes-custom-navbar .nav li.active>a,
+.kreativecodes-custom-navbar .navbar-toggle .icon-bar,
+#about a:hover,
+.service-details:hover .fa,
+#blog a:hover,
+.counter,
+.contact-area input[type=submit]:hover,
+#footer a {
+	color: #ff8c00;
+}
+
+.large-header .button:hover,
+.overlayslider .button:hover,
+.portfolio-button:hover {
+	background: #ff8c00;
+	color: #ffffff;
+}
+
+.progress-bar,
+.owl-carousel .owl-nav .owl-prev:hover,
+.owl-carousel .owl-nav .owl-next:hover {
+	color: #fff;
+	background-color: #ff8c00;
+}
+
+.kc-profileimg-hovereffect .overlay,
+.contact-area input:focus,
+.contact-area textarea:focus,
+.contact-area input[type=submit] {
+	background: #ff8c00;
+}

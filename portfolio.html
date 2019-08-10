@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +11,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
 
-    <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">    
+    <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
 
     <title>Responsive Portfolio</title>
 </head>
+
 <body>
     <header>
         <div id="name-box">
@@ -21,7 +23,7 @@
         </div>
         <div id="nav-menu">
             <ul>
-                <li><a href="index.html">About</a></li>                        
+                <li><a href="index.html">About</a></li>
                 <li><a class="active" href="portfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -29,37 +31,46 @@
     </header>
     <div class="container clearfix">
         <div class="content">
-            <div id="me"><h1>Portfolio</h1></div>
+            <div id="me">
+                <h1>Portfolio</h1>
+            </div>
             <hr id="line">
             <div id="content-div">
-                <div id="img1">
-                    <img src="assets/images/coffee-shop.jpg" width="100%" height="100%" />
-                    <div class="center-text">Coffee Shop</div>
+                <div id='img1' data-url="https://nhendricks2.github.io/Where-In-The-World/">
+                    <div class="center-text">Where In The World</div>
                 </div>
-                <div id="img2">
-                    <img src="assets/images/homework.jpg" width="100%" height="100%" />
-                    <div class="center-text">Homework</div>
+                <div id='img2' data-url="https://az9000.github.io/Train-Scheduler/">
+                    <div class="center-text">Train Scheduler</div>
                 </div>
-                <div id="img3">
-                    <img src="assets/images/northern-lights.jpg" width="100%" height="100%" />
-                    <div class="center-text">Northern Lights</div>
+                <div id='img3' data-url="https://az9000.github.io/GifTastic">
+                    <div class="center-text">GiffTastic</div>
                 </div>
-                <div id="img4">
-                    <img src="assets/images/engineering.jpg" width="100%" height="100%" />
-                    <div class="center-text">Engineering</div>
+                <div id='img4' data-url="https://az9000.github.io/TriviaGame">
+                    <div class="center-text">Trivia Game</div>
                 </div>
-                <div id="img5">
-                    <img src="assets/images/sky-scraper.jpg" width="100%" height="100%" />
-                    <div class="center-text">Sky Scraper</div>
+                <div id='img5' data-url="https://az9000.github.io/Word-Guess-Game/">
+                    <div class="center-text">Word Guess Game</div>
                 </div>
-                <div id="img6">
-                    <img src="assets/images/street.jpg" width="100%" height="100%" />
-                    <div class="center-text">Street</div>
+                <div id='img6' data-url="https://az9000.github.io/unit-4-game">
+                    <div class="center-text">Star Wars Game</div>
                 </div>
             </div>
         </div>
-        
+
     </div>
     <footer>&#169; 2019 Copyright</footer>
+
+    <script>
+        
+        document.addEventListener('click', function(event) {
+            var url = event.target.getAttribute('data-url');
+            if (url.length !== 0) {
+                window.open(url);
+            }
+        })
+
+    </script>
+
 </body>
+
 </html>
