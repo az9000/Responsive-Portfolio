@@ -91,7 +91,7 @@ h1 {
 
 .center-text {
     position: absolute;
-    width: 94.3%;
+    width: 100%;
     left: 0;
     bottom: 8px;
     background-color: #4aaaa5;
@@ -99,49 +99,73 @@ h1 {
     line-height: 30px;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 #img1 {
     position: relative;
     float: left;
-    width: 33.33%;
+    width: 33%;
     margin-bottom: 10px;
     margin-top: 10px;
+    background-image: url('/assets/images/world.png');
+    background-size: cover;
+    height: 40%;
+    cursor: pointer;
 }
 
 #img2 {
     position: relative;
     float: left;
-    width: 33.33%;
+    width: 33%;
     margin-bottom: 10px;
     margin-top: 10px;
+    background-image: url('/assets/images/train-scheduler.PNG');
+    background-size: cover;
+    height: 40%;
+    cursor: pointer;
 }
 
 #img3 {
     position: relative;
     float: left;
-    width: 33.33%;
+    width: 33%;
     margin-bottom: 10px;
     margin-top: 10px;
+    background-image: url('/assets/images/giftastic.PNG');
+    background-size: cover;
+    height: 40%;
+    cursor: pointer;
 }
 
 #img4 {
     position: relative;
     float: left;
-    width: 33.33%;
+    width: 33%;
+    background-image: url('/assets/images/triviagame.PNG');
+    background-size: cover;
+    height: 40%;
+    cursor: pointer;
 }
 
 #img5 {
     position: relative;
     float: left;
-    width: 33.33%;
+    width: 33%;
+    background-image: url('/assets/images/wordguess.PNG');
+    background-size: cover;
+    height: 40%;
+    cursor: pointer;
 }
 
 #img6 {
     position: relative;
     float: left;
-    width: 33.33%;
+    width: 33%;
+    background-image: url('/assets/images/starwars.PNG');
+    background-size: cover;
+    height: 40%;
+    cursor: pointer;
 }
 
 
@@ -272,7 +296,6 @@ footer {
 /* On screens that are 980px or less */
 @media all and (max-width: 980px) and (min-width: 769px)  {
 
-
     #name-box {
         width: 35vw;
         left: 2%;
@@ -303,7 +326,6 @@ footer {
 
 /* On screens that are larger 980px */
 @media all and (min-width: 981px) {
-
 
     #name-box {
         width: 20vw;
